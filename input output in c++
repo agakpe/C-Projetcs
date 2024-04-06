@@ -1,0 +1,27 @@
+#include <iostream>
+//#include <string>
+using namespace std;
+
+int main()
+{   
+   
+    std::string name;
+    int age;
+    char grade;
+    double amount;
+
+cout <<"Enter your name: "; 
+getline(cin, name); 
+cout <<"Enter your age: "; 
+cin >>age;
+cout <<"Enter you grade: "; 
+cin >> grade;
+cout <<"Enter the amount you want: "; 
+cin >> amount;
+
+cout <<name << " is " << age <<" years old "<< endl; 
+cout <<"His grade is " << grade <<" and his prize is "<<amount << endl;  
+    
+return 0;
+
+}
